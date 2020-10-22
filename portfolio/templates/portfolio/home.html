@@ -7,7 +7,9 @@
 <body>
 <h1>
     Andrey's Portfolio
-
+{% load static %}
+    <a href="{% static 'portfolio/resume.pfd' %}" >Resume</a>
+    <img src="{% static 'portfolio/AdobeStock_298001885.jpeg' %}">
 
 </h1>
 {% for project in  projects %}
